@@ -20,7 +20,6 @@
 						}
 						add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 						the_excerpt(); ?>
-						// comment
                         <div class="excerpts__text__meta">
                             <span class="excerpts__text__meta__date"><?php echo get_the_date(); ?></span>
                             <span>•</span>
