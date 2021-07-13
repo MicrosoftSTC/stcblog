@@ -10,6 +10,10 @@
     flex-direction: column;
   }
 
+  article p {
+    word-break: break-word;
+  }
+
   #backTop {
     cursor: pointer;
     position: fixed;
